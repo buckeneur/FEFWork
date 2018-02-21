@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Owen Buckley Online Profile</title>
+    <!-- Style your page using CSS. -->
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Using jQuery, when your icons are hovered over they should transform in size using CSS to show animation. -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
+</head>
+<body>
+<!--Layout your page using Bootstrap. -->
+<!-- A header with your name and your job title (ie. Web Developer, Full Stack Developer, etc..) -->
+<div class="container stay">
+    <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a href="index.html" class="navbar-brand">Owen Buckley Jr.<br>Web Developer</a>
+            </div>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li>
+                        <a href="profile.html"> Profile </a>
+                    </li>
+                    <li>
+                        <a href="contact.html"> Contact </a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a  id="myLogin" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+</div>
+<!-- An image of yourself so everyone knows who you are. -->
+<div class="container" style="margin-bottom: 24px;">
+    <h2 class="header" id="myHeader" >Photos</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <img class="img-responsive img-rounded grow gallery" src="img\owen1_2.jpg">
+            <label>Hanging out with friends.</label>    
+        </div>
+        <div class="col-md-4">    
+            <img class="img-responsive img-rounded grow gallery" src="img\owen2_2.jpg">
+            <label>Finished up a project for New York's AM970 and the Joe Piscopo Morning Show.</label>    
+        </div>
+        <div class="col-md-4">    
+            <img class="img-responsive img-rounded grow gallery" src="img\owen3_2.jpg">
+            <label>Band of brothers.</label>    
+        </div>
+    </div>
+</div>
+<!-- Clickable GitHub icon linking to your GitHub. -->
+<!-- Clickable LinkedIn icon linking to your LinkedIn. -->
+<!-- Other Professional Social Media (ie. Twitter, Facebook, Instagram, etc..) icons -->
+<!-- When your icons are hovered over they should transform in size using CSS to show animation. -->
+<div class="container">
+    <h2 class="header" id="myHeader2" >Links and Skills</h2>
+    <div class="row">
+        <div class="col-xs-12 col-md-3">    
+            <p id="linkTitle"></p>
+            <a id="linkGoTo" href="https://github.com/buckeneur">
+            <img id="linkImg" src="img\GitHub_Logo.png" class="img-responsive img-rounded link-img"></a>
+            <p id="linkComment"></p>
+        </div>
+        <div class="col-xs-12 col-md-3">    
+            <p id="linkTitle"></p>
+            <a id="linkGoTo" href="https://www.linkedin.com/in/owen-buckley-jr-75b59a24/">
+                <img id="linkImg" src="img\LinkedIn_Logo.png" class="img-responsive link-img"></a>
+            <p id="linkComment"></p>
+        </div>
+        <div class="col-xs-12 col-md-3">    
+                <p id="linkTitle"></p>
+                <a id="linkGoTo" href="https://www.facebook.com/owen.buckleyjunior">
+                    <img id="linkImg" src="img\FB_Logo.png" class="img-responsive img-rounded link-img"></a>
+                <p id="linkComment"></p>   
+            </div>
+            <div class="col-md-3">
+            <p id="linkTitle"></p>
+            <a id="linkGoTo" href="https://www.upwork.com/freelancers/~013d73b7770ca5355c">
+                <img id="linkImg" src="img\Upwork_Logo.png" class="img-responsive img-rounded link-img"></a>
+            <p id="linkComment"></p>   
+        </div>
+    </div>
+</div>
+
+<!-- List your tech-related skills. -->
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr class="active">
+                <th></th>
+                <th>Skill</th>
+                <th>Years Experience</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td>Web Design</td>
+                <td>3 years</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Project Management</td>
+                <td>10 years</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Audio Visual</td>
+                <td>20 years</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Filmmaking</td>
+                <td>1 year</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>App Developement</td>
+                <td>6 years</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Public Speaking</td>
+                <td>15 years</td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>
+
+<!-- Dynamically list your GitHub repositories. -->
+<!-- The repositories should be hyperlinks to the actual repository page on your GitHub account. -->
+<!-- Your list of repositories should be styled. -->
+<div class="container">
+     <h2 class="header" id="myHeader3" >Current GitHub Repositories</h2>
+     <div class="row">
+         <div class="col-md-2">
+         <button class="btn btn-default" id="hide">Hide List  </button></div>
+         <div class="col-md-2">
+         <button class="btn btn-primary" id="button">Update List</button></div>
+         <div class="col-md-8 alternate" id="repos">
+        </div>
+    </div>
+</div>
+<!-- A footer that sticks to the bottom of the screen, commonly referred to as a sticky footer. -->
+<!-- The footer should contain contact information with an email icon and an email address listed next to it. -->
+<footer class="footer stay"><div class="container"><p class="text-muted" >Email: <a class="email" href="contact.html" >me@owenbuckleyjr.com <span class="glyphicon glyphicon-envelope"></span></a></p></div>
+</footer>
+
+<div  id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">X</button>
+                    <h4 class="modal-title">Log In</h3>
+                </div>
+                <div class="modal-body">
+                    Userame: <input><br>
+                    Email: <input>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+$(document).ready(function() {
+    $("#myLogin").click(function(){
+        $("#myModal").modal("show");
+    });
+});
+</script>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

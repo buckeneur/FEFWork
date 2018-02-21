@@ -1,0 +1,88 @@
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: lightslategray;
+    height: 60px;
+    margin-top: 2em;
+    padding: 12px;
+}
+
+.link-img {
+    width: 100px;
+    height: 100px;
+}
+
+.stay {
+    position: sticky;
+}
+
+.repos {
+    display: flex;
+    padding: .1em;
+    margin-bottom: .1em;
+}
+.repos ul{
+    list-style: none;
+}
+
+.repos ul:nth-child(even) {
+    color: default;
+    background-color: lightgrey;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover { 
+    transform: scale(1.3);
+    margin: 20px 20px 20px 20px;
+    
+}
+
+.header {
+    background-color: lightslategray ;
+    padding: 10px 16px;
+    color: #f1f1f1;
+    margin-bottom: 24px;
+    margin-top: 0;
+    width: 100%
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 128px;
+}
+
+.gallery {
+    border: .1em solid grey;
+    box-shadow: 2px 4px 8px rgba(47, 79, 79, .5);
+    width: 250px;
+    height: 250px;    
+}
+
+.alternate {
+    background-color:lightgrey;
+    color: white;
+}
+
+.navbar {
+    padding: 0px 0px 4px 8px;
+    color: blue;
+    background-color: darkslateblue;
+}
+
+.navbar .navbar-nav {
+    padding: inherit inherit 28px inherit;
+    color: blue;
+    background-color: darkslategray;
+}
